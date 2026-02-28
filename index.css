@@ -1,0 +1,41 @@
+/* Fundal full screen */
+body {
+    margin: 0;
+    height: 100vh;             /* înălțimea ecranului */
+    width: 100vw;              /* lățimea ecranului */
+    background-size: cover;    /* ocupă tot ecranul */
+    background-position: center; /* centrăm imaginea */
+    background-repeat: no-repeat; /* fără repetare */
+}
+
+/* Fundaluri diferite pentru fiecare pagină */
+body.page1 { background-image: url('/images/fabia_individual_1.png'); }
+body.page2 { background-image: url('/images/fabia_individual_2.png'); }
+body.page3 { background-image: url('/images/fabia_individual_3.png'); }
+body.page4 { background-image: url('/images/fabia_individual_4.png'); }
+body.page5 { background-image: url('/images/fabia_detail.png'); }
+
+/* Navigație */
+nav {
+    background: rgba(0,0,0,0.5); /* semi-transparent pentru vizibilitate */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00a651;
+}
+
+/* Conținut text peste imagine */
+.content {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
